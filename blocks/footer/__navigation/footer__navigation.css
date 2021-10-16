@@ -1,0 +1,12 @@
+.footer__navigation {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+}

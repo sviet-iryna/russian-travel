@@ -1,0 +1,17 @@
+.place__paragraph-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-section {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__paragraph-section {
+   margin-left: 16px;
+  }
+}
