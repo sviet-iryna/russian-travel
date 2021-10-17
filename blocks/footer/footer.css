@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: calc(100vw - (48px + 48px));
+  margin-bottom: 24px;
 }
 
 @media screen and (max-width: 768px) {
