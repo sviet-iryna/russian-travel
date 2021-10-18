@@ -9,7 +9,7 @@
   -moz-border-box: border-box;
   box-sizing: border-box;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .lead__subtitle {
   font-size: 16px;
   line-height: 20px;

@@ -1,4 +1,7 @@
 .intro {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   margin-top: 92px;
   max-width: 984px;
   width: calc(100vw - (48px + 48px));

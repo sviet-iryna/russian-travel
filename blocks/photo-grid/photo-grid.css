@@ -1,4 +1,7 @@
 .photo-grid {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

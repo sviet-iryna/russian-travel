@@ -1,4 +1,7 @@
 .header {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   max-width: 1184px;
   width: calc(100vw - (48px + 48px));
   height: 52px;

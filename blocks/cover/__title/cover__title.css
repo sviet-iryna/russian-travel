@@ -7,6 +7,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 490px) {
+  .cover__title {
+    font-size: 42px;
+    line-height: 45px;
+    margin-top: 33px;
+  }
+}
 @media screen and (max-width: 425px) {
   .cover__title {
     font-size: 32px;
