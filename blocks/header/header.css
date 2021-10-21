@@ -4,7 +4,6 @@
   -webkit-font-smoothing: antialiased;
   max-width: 1184px;
   width: calc(100vw - (48px + 48px));
-  height: 52px;
   margin-top: 28px;
   color: white;
   display: flex;

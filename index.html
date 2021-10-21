@@ -4,19 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Russian travel</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип" />
-      <nav class="header__lang">
-        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </nav>
+
+      <div class="header__lang">
+        <ul class="header__list">
+          <li>
+            <a href="#" class="header__lang-link header__lang-link_active">
+              Ru
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__lang-link">En</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="content">
-      <div class="lead">
+      <section class="lead">
         <h1 class="lead__title">
           Путешествия по&nbsp;России
         </h1>
@@ -27,14 +36,14 @@
           <img
             class="lead__figure-image"
             src="./images/lead-polka.jpg"
-            alt=""
+            alt="Боковая полка в поезде"
           />
           <figcaption class="lead__figure-caption">
             ваша полка — верхняя
           </figcaption>
         </figure>
-      </div>
-      <div class="intro">
+      </section>
+      <section class="intro">
         <h2 class="intro__title">
           Чего мы там не видели?
         </h2>
@@ -71,7 +80,7 @@
             <span class="intro__list-number">241</span>
           </li>
         </ul>
-      </div>
+      </section>
       <section class="photo-grid">
         <img
           class="photo-grid__item"
@@ -135,13 +144,13 @@
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">
             Куршская коса
           </h2>
 
           <div class="place__website">
-            <h6 class="place__url-heading">URL</h6>
+            <span class="place__url-heading">URL</span>
             <a href="http://park-kosa.ru" target="_blank" class="place__link">
               park-kosa.ru
             </a>
@@ -167,14 +176,14 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">
             Кольский
           </h2>
 
           <div class="place__website">
-            <h6 class="place__url-heading">URL</h6>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
@@ -204,14 +213,14 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">
             Алтай
           </h2>
 
           <div class="place__website">
-            <h6 class="place__url-heading">URL</h6>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
@@ -240,14 +249,14 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">
             Зимний Байкал
           </h2>
 
           <div class="place__website">
-            <h6 class="place__url-heading">URL</h6>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://vk.com/baikalmile"
               target="_blank"
@@ -275,14 +284,14 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">
             Карелия
           </h2>
 
           <div class="place__website">
-            <h6 class="place__url-heading">URL</h6>
+            <span class="place__url-heading">URL</span>
             <a href="http://vodlozero.ru" target="_blank" class="place__link">
               http://vodlozero.ru/
             </a>
@@ -305,22 +314,23 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
-
-      <a
-        href="https://stampsy.com/na-elektrichkakh-do-baikala"
-        class="cover"
-        target="_blank"
-      >
-        <h2 class="cover__title">
-          До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до
-          Байкала на электричках.
-        </p>
-      </a>
+      <section class="cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover__link"
+          target="_blank"
+        >
+          <h2 class="cover__title">
+            До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+          </h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
+        </a>
+      </section>
     </main>
     <footer class="footer">
       <nav class="footer__navigation">
